@@ -1,3 +1,3 @@
 [submodule "compact_amp/spice_root"]
 	path = compact_amp/spice_root
-	url = git@gitlab.com:nradulovic/spice_root.git
+	url = https://gitlab.com/nradulovic/spice_root.git
