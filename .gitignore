@@ -7,3 +7,5 @@
 *.xml
 *.html
 *.rst~
+*.log
+*.raw
