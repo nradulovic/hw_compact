@@ -1,3 +1,0 @@
-[submodule "ltspice/spice_root"]
-	path = ltspice/spice_root
-	url = git@gitlab.com:nradulovic/spice_root.git
