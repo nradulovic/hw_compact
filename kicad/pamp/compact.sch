@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:compact-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -973,8 +972,6 @@ F 5 "W" H 6630 3536 50  0000 R CNN "Type"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3050 3600 3150 3600
-Wire Wire Line
 	2700 3600 2700 4000
 $Comp
 L Device:C C6
@@ -1223,10 +1220,6 @@ Wire Wire Line
 	1900 5800 1900 6000
 Wire Wire Line
 	1100 5800 1100 6000
-Wire Wire Line
-	3500 3600 3500 3650
-Wire Wire Line
-	2700 3600 2750 3600
 Wire Wire Line
 	9200 3700 9300 3700
 Wire Wire Line
@@ -1637,58 +1630,8 @@ F 7 "Farnell: 9339817" H 8300 3800 50  0001 C CNN "Supplier1A:"
 	1    8300 3800
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C C5
-U 1 1 5D3942BD
-P 3500 3800
-F 0 "C5" H 3385 3663 50  0000 R CNN
-F 1 "1n8" H 3385 3754 50  0000 R CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 3538 3650 50  0001 C CNN
-F 3 "~" H 3500 3800 50  0001 C CNN
-F 4 "100V" H 3385 3845 50  0000 R CNN "Voltage"
-F 5 "NP0" H 3385 3936 50  0000 R CNN "Type"
-	1    3500 3800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3450 3600 3500 3600
-Wire Wire Line
-	3500 3600 3550 3600
-Connection ~ 3500 3600
-Wire Wire Line
-	3500 3950 3500 4000
-$Comp
-L Device:R R7
-U 1 1 5D3ADEF7
-P 2900 3600
-F 0 "R7" V 3289 3600 50  0000 C CNN
-F 1 "10" V 3198 3600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2830 3600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1716726.pdf" H 2900 3600 50  0001 C CNN
-F 4 "1/4" V 3107 3600 50  0000 C CNN "Power"
-F 5 "MF" V 3016 3600 50  0000 C CNN "Type"
-F 6 "Multicomp: MF25 120R" H 2900 3600 50  0001 C CNN "Manufacturer1"
-F 7 "Farnell: " H 2900 3600 50  0001 C CNN "Supplier1A:"
-	1    2900 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5D3AEE03
-P 3700 3600
-F 0 "R11" V 4089 3600 50  0000 C CNN
-F 1 "1k" V 3998 3600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 3600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1716726.pdf" H 3700 3600 50  0001 C CNN
-F 4 "1/4" V 3907 3600 50  0000 C CNN "Power"
-F 5 "MF" V 3816 3600 50  0000 C CNN "Type"
-F 6 "Multicomp: MF25 1k" H 3700 3600 50  0001 C CNN "Manufacturer1"
-F 7 "Farnell: 9341102" H 3700 3600 50  0001 C CNN "Supplier1A:"
-	1    3700 3600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3850 3600 5100 3600
 $Comp
 L Device:C C1
 U 1 1 5D398BDA
@@ -1906,4 +1849,8 @@ F 3 "~" H 5100 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 3550 5100 3600
+Wire Wire Line
+	3500 3600 3500 4000
+Wire Wire Line
+	2700 3600 3150 3600
 $EndSCHEMATC
