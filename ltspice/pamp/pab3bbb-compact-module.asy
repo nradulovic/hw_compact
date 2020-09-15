@@ -25,9 +25,6 @@ PINATTR SpiceOrder 4
 PIN -48 -192 TOP 8
 PINATTR PinName pvcc
 PINATTR SpiceOrder 5
-PIN -208 -128 LEFT 8
-PINATTR PinName sgnd
+PIN -48 192 BOTTOM 8
+PINATTR PinName overload
 PINATTR SpiceOrder 6
-PIN -208 128 LEFT 8
-PINATTR PinName bias
-PINATTR SpiceOrder 7
